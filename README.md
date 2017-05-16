@@ -71,9 +71,9 @@ Use IntelliJ scala editor tool to develop the application, it is sweet and elaga
 * And use Scala Play SBT plugin to run the project 
 #### Use the following REST end point to test the AES crypto
 * To Encrypt the text using play2 - http://127.0.0.1:9000/app/play/encrypt?text=TEST_TEXT
-* To Encrypt the text using play2 - http://127.0.0.1:9000/app/play/decrypt?text=<ENCRYPTED _TEXT>
+* To Decrypt the text using play2 - http://127.0.0.1:9000/app/play/decrypt?text=<ENCRYPTED _TEXT>
 * To Encrypt the text using custom AES - http://127.0.0.1:9000/app/aes/encrypt?text=TEST_TEXT
-* To Encrypt the text using custom AES - http://127.0.0.1:9000/app/aes/decrypt?text=<ENCRYPTED _TEXT>
+* To Decrypt the text using custom AES - http://127.0.0.1:9000/app/aes/decrypt?text=<ENCRYPTED _TEXT>
 
 #### CURL Example:
 ```sh
