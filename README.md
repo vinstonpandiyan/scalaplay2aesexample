@@ -24,10 +24,10 @@ Play2 Built-in Java Cryptographic Example uses a number of open source projects 
 * [Gulp] - the streaming build system
 
 ### Installation
-
-This example requires [Play Framework](https://www.playframework.com/) v2.4+ to run.
-This example requires [SBT](http://www.scala-sbt.org/download.html) vsbt-0.12+ to run.
-This example requires [Node.js](https://nodejs.org/) v4+ to run.
+This example required the following tools to run
+* [Play Framework](https://www.playframework.com/) v2.4+ to run.
+* [SBT](http://www.scala-sbt.org/download.html) vsbt-0.12+ to run.
+* [Node.js](https://nodejs.org/) v4+ to run.
 
 Install the dependencies and devDependencies and start the server.
 ```sh
