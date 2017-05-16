@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+
+GET     /app/play/encrypt           controllers.PlayAES.encrypt(text: String)
+GET     /app/play/decrypt           controllers.PlayAES.decrypt(text: String)
+
+GET     /app/aes/encrypt           controllers.CustomAES.encrypt(text: String)
+GET     /app/aes/decrypt           controllers.CustomAES.decrypt(text: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+    
